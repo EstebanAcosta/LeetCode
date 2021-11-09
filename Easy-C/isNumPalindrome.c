@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <stdbool.h>
 
 bool isPalindrome(int x)
 {     
@@ -29,6 +30,9 @@ bool isPalindrome(int x)
 
 int main(int argc, char const *argv[])
 {
-    
+    bool confirm = isPalindrome(13431);
+
+    printf("%d\n",confirm );
+
     return 0;
 }
