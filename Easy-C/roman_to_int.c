@@ -2,10 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
 int romanToInt(char * s)
 {
     char symbols[] = {'I','V','X','L','C','D','M'};
