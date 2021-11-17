@@ -46,6 +46,7 @@ int removeDuplicates(int* nums, int numsSize)
 int main(int argc, char const *argv[])
 {
     int nums[] = {12,14,15,15,15,15,70};
-    removeDuplicates(nums,7);
+    int k = removeDuplicates(nums,7);
+    printf("The number of elements left are removing all repeating characters: %d\n", k);
     return 0;
 }
